@@ -84,7 +84,6 @@ contract BudgetMultiSig {
         fundsReleased = true;
         emit FundsReleased(currentMonth, budgetAmount);
         
-        // Send funds (mocked since contract doesn't hold ETH)
         budgetAmount = 0;
     }
 
